@@ -165,10 +165,10 @@ app.on('ready', () => {
 		return {
 			product: {
 				version: '1.x.y',
-				nameShort: 'Code - OSS Dev',
-				nameLong: 'Code - OSS Dev',
-				applicationName: 'code-oss',
-				dataFolderName: '.vscode-oss',
+				nameShort: 'Charm Code Dev',
+				nameLong: 'Charm Code Dev',
+				applicationName: 'code-charm',
+				dataFolderName: '.vscode',
 				urlProtocol: 'code-oss',
 			}
 		};

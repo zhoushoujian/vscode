@@ -59,10 +59,10 @@ else {
 	if (Object.keys(product).length === 0) {
 		Object.assign(product, {
 			version: '1.67.0-dev',
-			nameShort: 'Code - OSS Dev',
-			nameLong: 'Code - OSS Dev',
-			applicationName: 'code-oss',
-			dataFolderName: '.vscode-oss',
+			nameShort: 'Charm Code Dev',
+			nameLong: 'Charm Code Dev',
+			applicationName: 'code-charm',
+			dataFolderName: '.vscode',
 			urlProtocol: 'code-oss',
 			reportIssueUrl: 'https://github.com/microsoft/vscode/issues/new',
 			licenseName: 'MIT',

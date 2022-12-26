@@ -5,6 +5,7 @@
 
 .monaco-toolbar {
 	height: 100%;
+	/* display: none; */
 }
 
 .monaco-toolbar .toolbar-toggle-more {

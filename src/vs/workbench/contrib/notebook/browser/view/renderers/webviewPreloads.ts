@@ -1497,6 +1497,7 @@ async function webviewPreloads(ctx: PreloadContext) {
 			// De-prioritize built-in renderers
 			renderers.sort((a, b) => +a.data.isBuiltin - +b.data.isBuiltin);
 
+			//@ts-ignore
 			(await renderers[0].load())?.renderOutputItem(info, element);
 		}
 	}();
@@ -2094,6 +2095,7 @@ async function webviewPreloads(ctx: PreloadContext) {
 			} else {
 				const rendererApi = preloadsAndErrors[0] as rendererApi.RendererApi;
 				try {
+					//@ts-ignore
 					rendererApi.renderOutputItem(createOutputItem(this.outputId, content.mimeType, content.metadata, content.valueBytes), this.element);
 				} catch (e) {
 					showPreloadErrors(this.element, e);

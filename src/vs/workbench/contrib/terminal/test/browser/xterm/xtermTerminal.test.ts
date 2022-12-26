@@ -48,6 +48,7 @@ class TestWebglAddon {
 }
 
 class TestXtermTerminal extends XtermTerminal {
+	//@ts-ignore
 	webglAddonPromise: Promise<typeof WebglAddon> = Promise.resolve(TestWebglAddon);
 	// Force synchronous to avoid async when activating the addon
 	protected override _getWebglAddonConstructor() {
