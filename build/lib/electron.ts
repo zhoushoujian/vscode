@@ -97,8 +97,8 @@ export const config = {
 	darwinIcon: 'resources/darwin/code.icns',
 	darwinBundleIdentifier: product.darwinBundleIdentifier,
 	darwinApplicationCategoryType: 'public.app-category.developer-tools',
-	darwinHelpBookFolder: 'VS Code HelpBook',
-	darwinHelpBookName: 'VS Code HelpBook',
+	darwinHelpBookFolder: 'Charm Code HelpBook',
+	darwinHelpBookName: 'Charm Code HelpBook',
 	darwinBundleDocumentTypes: [
 		...darwinBundleDocumentTypes({ 'C header file': 'h', 'C source code': 'c' }, 'c'),
 		...darwinBundleDocumentTypes({ 'Git configuration file': ['gitattributes', 'gitconfig', 'gitignore'] }, 'config'),
