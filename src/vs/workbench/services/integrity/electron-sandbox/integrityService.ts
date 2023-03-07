@@ -78,10 +78,11 @@ export class IntegrityService implements IIntegrityService {
 				return; // all is good
 			}
 
-			this._prompt();
+			// this._prompt();
 		});
 	}
 
+	//@ts-ignore
 	private _prompt(): void {
 		const storedData = this._storage.get();
 		if (storedData?.dontShowPrompt && storedData.commit === this.productService.commit) {
